@@ -1,0 +1,77 @@
+body{
+    background-color: green; 
+}
+.urdu-font{
+    font-family: 'Jameel Noori Nastaleeq','Alvi Nastaleeq','Pak Nastaleeq','Nafees Web Naskh','Urdu Naskh Asiatype',Tahoma,'Lucida Grande',Verdana,Arial,Sans-Serif;
+    text-align: right;
+}
+.urdu-size{
+    font-size: 30px;
+}
+
+#name{
+    text-justify: auto;
+    width: 100%;
+    color:hsla(126, 34%, 51%, 0.67);
+}
+
+/*
+#signin-form{
+    background-color: rgba(134, 197, 219, 0.2)
+} */
+.modal-body{ 
+    padding:40px 50px;
+}
+#error{
+    color: red;
+}
+#btnuname{
+    background-color: green;
+    width:auto;
+    margin-right:5%;
+    text-align:center;
+}
+#main-nav {
+  /*  float: right;    */
+    border-top: 6px solid #ff8c00;
+}
+
+#menubtn{
+    margin-right:7%; 
+    
+}
+
+select, option {
+    text-align:right;   
+}
+۔asteriskField{
+ color: red;
+}
+/*
+#imgPreview
+{
+    
+ height: 40px;
+    width: 40px;
+    display: none; 
+}
+*/
+img{
+    
+ height: 200px;
+ width: 160px;
+ 
+}
+#pswdshow{
+    display:none;
+    position: absolute;
+    cursor: pointer;
+    pointer-events: all;
+
+
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
