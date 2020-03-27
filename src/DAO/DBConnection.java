@@ -25,7 +25,7 @@ public class DBConnection {
             String dbPort = "5432/";
             String dbName = "postgres";
             String dbUser = "postgres";
-            String dbPass = "zahid123";
+            String dbPass = "postgres1";
 
             con = DriverManager.getConnection(dbType + dbUrl + dbPort + dbName, dbUser, dbPass);
             System.out.println("Opened database successfully");
